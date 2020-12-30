@@ -1,0 +1,354 @@
+/* GENERAL */
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  padding-right: 1rem;
+}
+h2 {
+  padding-bottom: 1rem;
+}
+h5 {
+line-height: 2;
+}
+
+body {
+  font-family:'Noto Sans JP', sans-serif;
+  background-color: #f7f7f7;
+  font-weight: 400;
+}
+
+
+footer {
+  background-color: #333333;
+  padding: 2% 15%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+
+/* navbar */
+
+.navbar {
+  padding: 2% 0;
+}
+
+.nav-link {
+  margin: 0 0.3rem;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  text-align: left;
+}
+
+.logo {
+  padding-right: 0.2rem;
+}
+
+.nav-item-white {
+  color: snow;
+}
+
+
+
+/* top section */
+
+#intro {
+  text-align: center;
+
+}
+
+.intro-white {
+  color: snow;
+  padding-bottom: 2%;
+}
+
+.otuboi {
+  margin-top: 6rem;
+}
+
+.top-section {
+  background-color: #eebb4d;
+}
+
+.bluebg {
+background-color: #0e49b5;
+}
+
+.topbutton {
+  margin-top: 3%;
+}
+
+
+.woman {
+  margin-top: 2rem;
+  height: auto;
+  float: right;
+  position: relative;
+  padding: 1%;
+}
+
+.manphone {
+  float: left;
+  position: relative;
+  padding: 1%;
+}
+
+.computerman {
+  max-width: 100%;
+}
+
+/* cards */
+
+.cards {
+  color: black;
+  margin: 5% 15%;
+}
+
+.cardstitle {
+
+  padding-bottom: 4%;
+}
+
+.card-header {
+  background-color: #e5e5e5;
+}
+.card-body {
+  line-height: 2;
+}
+
+
+.card-section {
+  position: relative;
+}
+
+/* main section */
+
+.bankingicon {
+
+  color: #0e49b5;
+  opacity: 0.9;
+  font-size: 1.5rem;
+text-align: right;
+}
+
+.banklist {
+display: inline-block;
+}
+
+.bankmargin {
+display: inline-block;
+font-size: 1rem;
+  margin-left: 15px;
+  padding-bottom: 20px;
+}
+
+.invoice {
+  margin-right: 0.5em;
+}
+
+.phoneicon {
+  margin-right: 0.625em;
+}
+
+.checksquareicon {
+  margin-right: 0.375em;
+}
+
+.mobileimage {
+padding-right: 0.5rem;
+}
+
+.mobilemoneylist {
+  padding: 0 0.5rem;
+}
+.mobilesection {
+  margin: 0 0 3%;
+}
+/* video section */
+
+.video {
+  height: 360px;
+}
+
+.download {
+  margin: 5% 5% 0 0;
+}
+
+
+
+/* TABLES */
+
+.mtntable {
+
+  padding: 5% 15%;
+  background-color: #f7f7f7;
+}
+
+.ccicon {
+  margin-right: 0.125em;
+}
+
+/* Testimonials */
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  margin: 5%;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.testimonials {
+
+  text-align: center;
+  background-color: #4c4c4c;
+  color: #fff;
+}
+
+/* PARTNERS */
+
+.partners {
+  padding-bottom: 5%;
+}
+
+.partners-text {
+  font-size: 0.8rem;
+  opacity: 0.44;
+}
+
+.partnersimage {
+  opacity: 0.33;
+  width: 9%;
+  padding: 0 2rem;
+}
+
+
+/* FOOTER */
+
+.logofooter {
+  opacity: 0.33;
+}
+
+.footerbrand {
+  color: #eebb4d;
+}
+
+.footertext {
+  padding-top: 1rem;
+  line-height: 2;
+  color: white;
+  opacity: 0.7;
+}
+
+.copyright {
+  margin-top: 2rem;
+  text-align: right;
+  color: white;
+  opacity: 0.3;
+  font-size: 0.7rem;
+}
+
+.mapouter {
+  float: right;
+}
+
+#logofooter {
+  color: #eebb4d;
+}
+
+
+/* *********************************** */
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+
+@media (min-width:1200px) and (max-width:1585px) {
+  .otuboi {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width:1199px) {
+  .otuboi {
+    margin-top: 2rem;
+  }
+  h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width:1231px) {
+  .partnersimage {
+    width: 12%;
+  }
+}
+
+@media (max-width: 991px) {
+  #woman {
+  position: static;
+    padding: 2% 0;
+    width: 100%
+  }
+.otuboi {
+  text-align: center;
+}
+
+.cardstitle {
+  text-align: center;
+}
+
+  }
+
+@media (max-width: 1576px) {
+  iframe {
+    width: 80%;
+  }
+}
+
+@media (max-width: 637px) {
+
+  .bankingicon {
+margin: 0 50%;
+  }
+
+  .bankmargin {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+
+  }
+}
+
+@media (max-width:480px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
