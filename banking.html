@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TELEKOM EQUATOR</title>
+
+  <!-- FONT AWESOME -->
+
+  <script defer src="https://use.fontawesome.com/releases/v5.3.0/js/all.js"></script>
+
+  <!-- GOOGLE fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+  <!-- stylesheet -->
+
+  <link rel="stylesheet" href="/Users/mariannetk/Documents/Web Dev/Atom Web Development/Telekom Equator/css/style.css">
+
+  <!-- MAP -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+
+</head>
+
+<body>
+  <section class="top-section bluebg">
+
+
+    <!-- NOTE: NAVBAR -->
+    <div class="container-fluid">
+      <nav id="navbar" class="navbar navbar-expand-xl navbar-light">
+        <a style="color:snow;" class="navbar-brand" href="index.html">
+
+          TELEKOM EQUATOR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a style="color:snow;" class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a style="color:#a6a6a4;" class="nav-link" href="#">Banking</a>
+            </li>
+            <li class="nav-item">
+              <a style="color:snow;" class="nav-link" href="mobilemoney.html">Mobile Money</a>
+            </li>
+
+            <li class="nav-item">
+              <a style="color:snow;" class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-dark">Contact Us</button>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+      <!-- NOTE: TOP SECTION -->
+
+      <div style="padding-bottom: 100px;" class="row">
+        <div class="otuboi col-xl-7 col-lg-6 col-md-12">
+
+          <h1 class="intro intro-white">Agent Banking with Stanbic Bank Uganda.</h1>
+
+          <img src="/Users/mariannetk/Documents/Web Dev/Atom Web Development/Telekom Equator/images/stanbiclogo.png" alt="" width="150px" height="44.281px">
+
+
+
+        </div>
+        <!--
+        <div class="col-xl-5 col-lg-6 col-md-12">
+          <img class="woman img-fluid" src="/Users/mariannetk/Documents/Web Dev/Atom Web Development/Telekom Equator/images/Stanbic-bank.jpg" alt="">
+        </div>
+-->
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- cards -->
+
+  <section class="cards">
+    <h2 class="cardstitle">Bringing the Bank Closer to You</h2>
+    <div class="row">
+      <div class="col-lg-7">
+
+        <div class="card-deck mb-3 text-left">
+          <div class="card mb-4 shadow-sm">
+
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">What you get</h4>
+            </div>
+            <div class="card-body">
+
+
+              <div class="card-section">
+
+
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-money-check-alt bankingicon"></i>
+                    <div class="bankmargin">
+                      Cash deposits to any Stanbic account
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-money-check-alt bankingicon"></i>
+                    <div class="bankmargin">
+                      Cash withdraws from your Bank account
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-file-invoice bankingicon banklist invoice"></i>
+                    <div class="bankmargin">
+                      Bill payments for water, TV, taxes and electricity
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-graduation-cap bankingicon banklist"></i>
+                    <div class="bankmargin">
+                      School fees payment
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-mobile-alt bankingicon banklist phoneicon"></i>
+                    <div class="bankmargin">
+                      Airtime top ups
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-mobile-alt bankingicon phoneicon"></i>
+                    <div class="bankmargin">
+                      Mobile money float purchases
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-check-square bankingicon checksquareicon"></i>
+                    <div class="bankmargin">
+                      No paperwork
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-user-check bankingicon"></i>
+                    <div class="bankmargin">
+                      Agents serve for longer hours than the branches
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <i class="fas fa-check-square bankingicon checksquareicon"></i>
+                    <div class="bankmargin">
+                      Instant reconciliation of your transactions
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- video -->
+
+
+      <div class="col-lg-5">
+        <div class="video">
+          <iframe width="100%" height="30%" src="https://www.youtube.com/embed/n1-VdmEu3co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+<div class="download">
+  <p>Click below to download the Standard Bank app:</p>
+  <button type="button" class="btn btn btn-dark btn-md"><i class="fab fa-google-play"></i> Google Play </button>
+  <button type="button" class="btn btn-dark btn-md"><i class="fab fa-apple"></i> Apple Store</button>
+</div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+      <a id="logofooter" class="navbar-brand footerbrand"href="#navbar">TELEKOM EQUATOR</a>
+
+
+    <div class="row">
+      <div class="footertext col-lg-4">
+        <p><strong>We are happy to help, come visit us at:</strong><br>
+        123 Main Street Avenue <br>
+        1234 Otuboi Town <br>
+        Kalaki District, Uganda</p>
+        </div>
+
+    <div class="footertext col-lg-4">
+      <p><strong>To contact us:</strong><br>
+        Phone: +256 123 456 <br>
+        Email: email@telekomequator.com
+
+    </div>
+
+
+      <div class="col-lg-4">
+        <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1.917925422800748,33.301824331283576+(Telekom%20Equator)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm">Plan A Journey</a></div>
+      </div>
+
+    </div>
+
+
+
+    <p class="copyright">© Copyright 2020 Telekom Equator Ltd. Powered by MAE.</p>
+
+  </footer>
+
+
+</body>
+
+  <!-- Banking list
+
+
+  <div class="bankingicon">
+
+
+  <i class="far fa-credit-card ccicon"></i>
+  <div class="banklist bankmargin">
+    A prepaid card that can be issued to Stanbic and non-Stanbic Bank account holders
+
+  </div>
+</div> -->
