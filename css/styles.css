@@ -6,9 +6,11 @@ h1 {
   line-height: 1.2;
   padding-right: 1rem;
 }
+
 h2 {
   padding-bottom: 1rem;
 }
+
 h5 {
 line-height: 2;
 }
@@ -17,6 +19,8 @@ body {
   font-family:'Noto Sans JP', sans-serif;
   background-color: #f7f7f7;
   font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.8;
 }
 
 
@@ -59,6 +63,9 @@ iframe {
   color: snow;
 }
 
+.nav-item a:hover {
+color: blue;
+}
 
 
 /* top section */
@@ -66,6 +73,10 @@ iframe {
 #intro {
   text-align: center;
 
+}
+
+.introbanking {
+padding-top: 5rem;
 }
 
 .intro-white {
@@ -81,9 +92,7 @@ iframe {
   background-color: #eebb4d;
 }
 
-.bluebg {
-background-color: #0e49b5;
-}
+
 
 .topbutton {
   margin-top: 3%;
@@ -108,7 +117,16 @@ background-color: #0e49b5;
   max-width: 100%;
 }
 
+/* main */
+
+.index1st {
+  margin-bottom: 5rem;
+}
+
 /* cards */
+.card-deck {
+  padding-top: 1rem;
+}
 
 .cards {
   color: black;
@@ -118,6 +136,7 @@ background-color: #0e49b5;
 .cardstitle {
 
   padding-bottom: 4%;
+  text-align: center;
 }
 
 .card-header {
@@ -134,9 +153,13 @@ background-color: #0e49b5;
 
 /* main section */
 
+.who {
+padding-right: 3rem;
+}
+
 .bankingicon {
 
-  color: #0e49b5;
+  color: #333333;
   opacity: 0.9;
   font-size: 1.5rem;
 text-align: right;
@@ -185,8 +208,18 @@ padding-right: 0.5rem;
   margin: 5% 5% 0 0;
 }
 
+.bringingbank {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
 
+.bankingoffer{
+  padding-right: 3rem;
+}
 
+.register {
+  padding-top: 4rem;
+}
 /* TABLES */
 
 .mtntable {
@@ -199,7 +232,7 @@ padding-right: 0.5rem;
   margin-right: 0.125em;
 }
 
-/* Testimonials */
+/* Carousel Testimonials */
 
 
 .testimonial-image {
@@ -209,11 +242,12 @@ padding-right: 0.5rem;
 }
 
 .testimonial-text {
-  margin: 5%;
+  margin: 5% 5% 2%;
+
 }
 
 .carousel-item {
-  padding: 5% 15%;
+  padding: 0 15%;
 }
 
 .testimonials {
@@ -226,7 +260,7 @@ padding-right: 0.5rem;
 /* PARTNERS */
 
 .partners {
-  padding-bottom: 5%;
+  padding: 3% 0 3%;
 }
 
 .partners-text {
@@ -236,7 +270,7 @@ padding-right: 0.5rem;
 
 .partnersimage {
   opacity: 0.33;
-  width: 9%;
+  width: 8%;
   padding: 0 2rem;
 }
 
@@ -272,6 +306,44 @@ padding-right: 0.5rem;
 
 #logofooter {
   color: #eebb4d;
+}
+
+
+
+/* NOTE: CONTACT US FORM */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #555555;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a yellow color */
+input[type=submit]:hover {
+  background-color: #eebb4d;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 
