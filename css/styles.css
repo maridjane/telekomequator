@@ -119,9 +119,7 @@ padding-top: 5rem;
 
 /* main */
 
-.index1st {
-  margin-bottom: 5rem;
-}
+
 
 /* cards */
 .card-deck {
@@ -155,6 +153,13 @@ padding-top: 5rem;
 
 .who {
 padding-right: 3rem;
+}
+.onestop {
+
+}
+
+.index1st {
+  margin-bottom: 4rem;
 }
 
 .bankingicon {
@@ -356,6 +361,38 @@ input[type=submit]:hover {
 
 
 /* RESPONSIVE */
+
+/* iphone 6 375px*/
+
+@media (max-width:375px) {
+  .navbar-brand {
+    font-weight: 800;
+    margin-right: 0.3rem;
+  }
+  .woman {
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  .who {
+    padding: 2rem 0 0 0;
+    text-align: center;
+  }
+  .welcomecard {
+    visibility: hidden;
+    display: none;
+  }
+  .index1st {
+    margin-bottom: 2rem;
+  }
+  .intro {
+    padding-right: 0;
+  }
+  .otuboi {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 
 
 
