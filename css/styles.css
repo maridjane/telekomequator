@@ -159,7 +159,7 @@ padding-right: 3rem;
 }
 
 .index1st {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .bankingicon {
@@ -390,6 +390,26 @@ input[type=submit]:hover {
   .otuboi {
     padding-left: 0;
     padding-right: 0;
+  }
+  .onestop {
+    text-align: center;
+  }
+
+  .testimonial-text {
+    margin: 15% 5% 2%;
+  }
+  h3 {
+font-weight: 400;
+  }
+  .partners {
+    visibility: hidden;
+    display: none;
+  }
+  .testimonials {
+    padding-bottom: 10%;
+  }
+  #logofooter {
+    padding: 10% 0 0;
   }
 }
 
