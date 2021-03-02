@@ -42,21 +42,40 @@ iframe {
 /* navbar */
 
 .navbar {
-  padding: 2% 0;
+
+  background-color: #252525;
+}
+
+.navbar-toggler-icon {
+
+}
+
+.custom-toggler.navbar-toggler {
+  border-width: 2px;
 }
 
 .nav-link {
   margin: 0 0.3rem;
-  font-weight: 500;
+  font-weight: 400;
 }
+
 
 .navbar-brand {
   font-weight: 600;
   text-align: left;
+  font-size: 1.2rem;
+  margin-left: 15%;
+  padding-left: 1%;
+
 }
 
 .logo {
   padding-right: 0.2rem;
+}
+
+.nav-item {
+  font-size: 0.9rem;
+
 }
 
 .nav-item-white {
@@ -305,8 +324,9 @@ padding-right: 0.5rem;
   font-size: 0.7rem;
 }
 
-.mapouter {
-  float: right;
+
+.map {
+
 }
 
 #logofooter {
@@ -368,7 +388,16 @@ input[type=submit]:hover {
   .navbar-brand {
     font-weight: 800;
     margin-right: 0.3rem;
+    padding-left: 0;
+    margin-left: 2%;
   }
+
+
+
+  .navbar {
+
+  }
+
   .woman {
     padding: 0;
     margin-bottom: 2rem;
@@ -376,6 +405,9 @@ input[type=submit]:hover {
   .who {
     padding: 2rem 0 0 0;
     text-align: center;
+  }
+  .cards {
+    padding: 0 5%;
   }
   .welcomecard {
     visibility: hidden;
@@ -408,10 +440,48 @@ font-weight: 400;
   .testimonials {
     padding-bottom: 10%;
   }
+  .testimonial-text {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20%;
+  }
   #logofooter {
     padding: 10% 0 0;
   }
+
+/* banking*/
+
+  .introbanking {
+    padding-top: 0;
+  }
+.bankingoffer {
+  padding-top: 2rem;
+  text-align: center;
 }
+.bringingbank {
+  text-align: center;
+}
+.bankingicon {
+  text-align: center;
+}
+.card-header {
+  text-align: center;
+}
+.bankmargin {
+  margin-left: 0;
+}
+
+/* footer*/
+
+.copyright {
+  text-align: center;
+}
+.map {
+
+}
+}
+
+
 
 
 
