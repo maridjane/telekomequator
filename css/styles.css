@@ -140,6 +140,10 @@ padding-top: 5rem;
   max-width: 100%;
 }
 
+.subtitle {
+
+}
+
 /* main */
 
 
@@ -397,7 +401,7 @@ input[type=submit]:hover {
 
 /* iphone 6 375px*/
 
-@media (max-width:375px) {
+@media (max-width:414px) {
   .navbar-brand {
     font-weight: 800;
     margin-right: 0.3rem;
@@ -462,7 +466,27 @@ font-weight: 400;
     padding: 10% 0 0;
   }
 
-/* banking*/
+
+  .subtitle {
+    text-align: center;
+  }
+
+.card-deck {
+  padding-top: 1.5rem;
+
+}
+
+.footertext {
+  text-align: center;
+}
+
+.footerbrand {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
+  /* banking*/
 
   .introbanking {
     padding-top: 0;
@@ -484,6 +508,20 @@ font-weight: 400;
   margin-left: 0;
 }
 
+.video {
+  height: 190px;
+  width: 280px;
+}
+
+.playbutton {
+
+}
+
+.applebutton {
+  margin-top: 20px;
+  text-align: center;
+}
+
 /* footer*/
 
 .copyright {
@@ -492,6 +530,12 @@ font-weight: 400;
 .footerbrand {
   padding-top: 2rem;
 }
+.map1 {
+  padding-top: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 
 }
 
@@ -564,4 +608,27 @@ margin: 0 50%;
   h1 {
     font-size: 2rem;
   }
+}
+
+/* ABOUT PAGE ALIGNMENT */
+
+.about-content {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.about-content .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* ABOUT PAGE CONTENT */
+
+.about-section {
+  padding: 90px 15%;
+}
+
+.about-section .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
